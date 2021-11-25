@@ -11,9 +11,10 @@ body {
 }
 
 .main {
-  padding: 1.333333333rem;
+  padding: 0 1.333333333rem 1.333333333rem;
 }
 
+/* Header */
 .header {
   background-color: #492140;
   color: #fff;
@@ -27,6 +28,25 @@ body {
   font-weight: 700;
 }
 
+.form__control {
+  margin-top: 1.333333333rem
+}
+
+/* Form */
 .form__control label {
   display: block;
+  margin-bottom: 0.5rem;
+}
+.form__control input {
+  border: 1px solid #263238;
+  border-radius: 8px;
+  opacity: 0.16;
+  height: 56px;
+  width: 332px;
+}
+.form__control-error {
+  color: #F8380D;
+  display: block;
+  font-size: 0.666666667rem;
+  margin-top: 0.5rem;
 }
