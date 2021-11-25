@@ -1,9 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
 
 body {
+  background: #fff;
+  color: #000;
   font-family: "Inter", sans-serif;
   font-size: 18px;
+  font-weight: 500;
   line-height: 0.888888889rem;
-  color: #000;
-  background: #fff;
+  margin: 0;
+}
+
+.main {
+  padding: 1.333333333rem;
+}
+
+.header {
+  background-color: #492140;
+  color: #fff;
+  margin-bottom: 1.333333333rem;
+  padding: 20px 110px 21px 111px;
+  text-align: center;
+}
+
+.header__title {
+  font-size: 1.333333333rem;
+  font-weight: 700;
+}
+
+.form__control label {
+  display: block;
 }
