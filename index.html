@@ -37,7 +37,7 @@
               type="password"
               aria-describedby="passwordRequirement"
               required />
-            <span id="passwordRequirement">12 or more combination of letters, numbers, and symbols</span>
+            <span id="passwordRequirement" class="form__control-error">12 or more combination of letters, numbers, and symbols</span>
           </div>
           
           <div class="form__control">
@@ -47,11 +47,11 @@
             <input id="passwordConfirmation" type="password" required />
           </div>
 
-          <input type="submit" value="Create Account" />
+          <button class="form__submit button-primary" type="submit">Create Account</button>
         </form>
-        <div>
-          <a href="#">Already have an account? Sign In</a>
-        </div>
+        <footer class="form__footer">
+          <a href="#" class="form__footer-link">Already have an account? Sign In</a>
+        </footer>
       </main>
     </div>
   </body>
