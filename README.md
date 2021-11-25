@@ -26,7 +26,7 @@ Our goal is to plan and build a user interface through our own decisions
 ## Level 2: Typography and Color
 - [ ] Add a file called `style.css` and link it to the HTML page
 - [ ] Make the HTML page match the design's typography using CSS
-  - [ ] Match Font-Family
+  - [ ] Match Font-Family (You can use Google Fonts: https://fonts.google.com/)
   - [ ] Match Font-Size
 - [ ] Apply color
   - [ ] Match background colors in the mock-up
@@ -37,8 +37,12 @@ Our goal is to plan and build a user interface through our own decisions
 
 ## Level 3: Layout and Spacing
 - [ ] Use fixed pixel widths and box elements to organize the form into sections and layout boxes
-- [ ] TODO: Add more layout steps
+- [ ] Make sure margins, borders, and padding match the mock exactly
 
 --- Responsive Design Lecture ---
 
 --- Flexbox Lecture ---
+
+## Level 4: Responsive Design
+- [ ] Add a meta tag to set viewport width
+- [ ] Change fixed pixel layout to flex box layout
