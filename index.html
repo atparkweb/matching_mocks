@@ -9,48 +9,50 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>New Account</h1>
+      <header class="header">
+        <h1 class="header__title">New Account</h1>
       </header>
       
-      <form action="">
-        <div>
-          <label for="name">
-            Name
-          </label>
-          <input id="name" type="text" required />
-        </div>
+      <main class="main">
+        <form action="" class="form">
+          <div class="form__control">
+            <label for="name">
+              Name
+            </label>
+            <input id="name" type="text" required />
+          </div>
 
-        <div>
-          <label for="email">
-            Email
-          </label>
-          <input id="email" type="email" required />
-        </div>
-        
-        <div>
-          <label for="password">
-            Password
-          </label>
-          <input id="password"
-            type="password"
-            aria-describedby="passwordRequirement"
-            required />
-          <span id="passwordRequirement">12 or more combination of letters, numbers, and symbols</span>
-        </div>
-        
-        <div>
-          <label for="passwordConfirmation">
-            Password (again)
-          </label>
-          <input id="passwordConfirmation" type="password" required />
-        </div>
+          <div class="form__control">
+            <label for="email">
+              Email
+            </label>
+            <input id="email" type="email" required />
+          </div>
+          
+          <div class="form__control">
+            <label for="password">
+              Password
+            </label>
+            <input id="password"
+              type="password"
+              aria-describedby="passwordRequirement"
+              required />
+            <span id="passwordRequirement" class="form__control-error">12 or more combination of letters, numbers, and symbols</span>
+          </div>
+          
+          <div class="form__control">
+            <label for="passwordConfirmation">
+              Password (again)
+            </label>
+            <input id="passwordConfirmation" type="password" required />
+          </div>
 
-        <input type="submit" value="Create Account" />
-      </form>
-      <div>
-        <a href="#">Already have an account? Sign In</a>
-      </div>
+          <button class="form__submit button-primary" type="submit">Create Account</button>
+        </form>
+        <footer class="form__footer">
+          <a href="#" class="form__footer-link">Already have an account? Sign In</a>
+        </footer>
+      </main>
     </div>
   </body>
 </html>
