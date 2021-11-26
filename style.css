@@ -10,6 +10,11 @@ body {
   margin: 0;
 }
 
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+
 .main {
   padding: 0 1.333333333rem 1.333333333rem;
 }
@@ -32,7 +37,7 @@ body {
   background-color: #492140;
   color: #fff;
   margin-bottom: 1.333333333rem;
-  padding: 20px 110px 21px 111px;
+  padding: 15px 110px 15px 111px;
   text-align: center;
 }
 
